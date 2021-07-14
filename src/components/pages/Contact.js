@@ -3,15 +3,12 @@ import React from 'react';
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <h2>Get in Touch</h2>
+      <div class="contact-links">
+        <a href="mailto: ryanascherr@gmail.com" target="_blank"><div class="link">ryanascherr@gmail.com</div></a>
+        <a href="https://github.com/ryanascherr" target="_blank"><div class="link">github.com/ryanascherr</div></a>
+        <a href="https://www.linkedin.com/in/ryanascherr/" target="_blank"><div class="link">linkedin.com/in/ryanascherr</div></a>
+      </div>
     </div>
   );
 }

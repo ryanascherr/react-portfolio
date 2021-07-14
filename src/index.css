@@ -28,3 +28,19 @@ body {
 .name {
     font-size: 400%;
 }
+
+.headshot-container {
+    max-width: 100px;
+}
+
+.about {
+    color: #16405C;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.headshot {
+    width: 100%;
+    border: 5px solid #16405C;
+    border-radius: 50%;
+}

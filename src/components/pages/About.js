@@ -1,16 +1,15 @@
 import React from 'react';
+import headshot from '../../img/closeup.png'
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className="about">
+      <h1>About Me</h1>
+      <div className="headshot-container">
+        <img className="headshot" src={headshot} alt="A picture of a very handsome Ryan Scherr"></img>
+      </div>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        I'm a web developer who specializes in front-end development. My passion and expertise are in creating web pages with responsive design and intuitive UI, with a focus on mobile-first design. I received a full-stack web development certificate through Johns Hopkins Coding Bootcamp. In that program, I learned a variety of languages, technologies, and frameworks, like JavaScript, Node.js, APIs, MySQL, and React, just to name a few. My near-decade of work as a leader and team player in the field of Applied Behavior Analysis gives me a unique edge as I transition to this field.
       </p>
     </div>
   );

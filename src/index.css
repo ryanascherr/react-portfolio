@@ -18,24 +18,23 @@ a {
     color: #16405C;
 }
 
-h1 {
+h1, h2, h3 {
     text-align: center;
 }
 
-.container {
+.header {
+    padding: 50px 0 0 0;
+    color: white;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 0;
+    flex-direction: column;
     background-color: #16405C;
+}
+
+.header a {
     color: white;
 }
 
-.container a {
-    color: white;
-}
-
-.container a:hover {
+.header a:hover {
     color: white;
 }
 
@@ -48,9 +47,8 @@ h1 {
 }
 
 .about, .portfolio, .contact {
-    color: #16405C;
-    width: 90%;
     margin: 0 auto;
+    color: #16405C;
 }
 
 .headshot {
@@ -146,8 +144,7 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 50px 0;
-    width: 90%;
-    margin: 0 auto;
+    margin-top: 300px;
 }
 
 .icon-container {

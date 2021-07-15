@@ -140,6 +140,28 @@ h1 {
     color: white;
 }
 
+.footer {
+    background-color: #16405C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.icon-container {
+    width: 50px;
+    margin: 0 10px;
+}
+
+.icon-container img {
+    max-width: 100%;
+}
+
+.icon-container:hover {
+    transform: scale(1.2);
+}
 
 
 

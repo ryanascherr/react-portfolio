@@ -12,11 +12,14 @@ button {
     background-color: white;
     color: #16405C;
     padding: 10px;
-    border-radius: 10px;
 }
 
 a {
     color: #16405C;
+}
+
+h1 {
+    text-align: center;
 }
 
 .container {
@@ -44,7 +47,7 @@ a {
     max-width: 100px;
 }
 
-.about, .portfolio {
+.about, .portfolio, .contact {
     color: #16405C;
     width: 90%;
     margin: 0 auto;
@@ -107,12 +110,34 @@ a {
     color: #16405C;
     padding: 10px;
     border-radius: 10px;
-    border: none;
+    border: 2px solid #16405C;
 }
 
 .button a {
     color: #16405C;
     text-decoration: none;
+}
+
+.buttons a:hover .button {
+    border: 2px solid white;
+    background-color: #16405C;
+    color: white;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-links button {
+    border-radius: 10px;
+    border: 2px solid #16405C;
+}
+
+.contact-links a:hover .link {
+    border: 2px solid white;
+    background-color: #16405C;
+    color: white;
 }
 
 

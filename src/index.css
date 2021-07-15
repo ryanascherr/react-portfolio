@@ -33,9 +33,9 @@ body {
     max-width: 100px;
 }
 
-.about {
+.about, .portfolio {
     color: #16405C;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -44,3 +44,50 @@ body {
     border: 5px solid #16405C;
     border-radius: 50%;
 }
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 45%;
+    margin: 15px;
+    position: relative;
+}
+
+.project:hover .overlay {
+    opacity: 1;
+  }
+
+.pic-container img {
+    max-width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #16405C;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+

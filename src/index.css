@@ -48,11 +48,19 @@ h1, h2, h3 {
     margin: 0 15px 15px 15px;
 }
 
-.about, .portfolio, .contact {
+.about, .portfolio, .contact, .resume {
     width: 90%;
     margin: 30px auto;
     color: #16405C;
 }
+
+.resume {
+    width: 75%;
+}
+
+/* .resume p, .resume li {
+    font-size: 150%;
+} */
 
 .about {
     width: 75%;

@@ -52,6 +52,7 @@ h1, h2, h3 {
     width: 90%;
     margin: 30px auto;
     color: #16405C;
+    padding-bottom: 200px;
 }
 
 .resume {
@@ -183,6 +184,9 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     padding: 50px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .icon-container {

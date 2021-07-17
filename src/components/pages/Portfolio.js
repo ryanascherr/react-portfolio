@@ -5,9 +5,17 @@ import weatherPic from '../../img/weather.png';
 import horiseonPic from '../../img/horiseon.png';
 
 export default function Portfolio() {
-  return (
+    const coolFunction = () => {
+        console.log("It worked!");
+    }
+
+    coolFunction();
+  
+  
+    return (
     <div className="portfolio">
       <h1>My Portfolio</h1>
+      <button onClick={coolFunction}>Click me!</button>
       <div className="projects">
           <div className="project">
               <div className="pic-container">

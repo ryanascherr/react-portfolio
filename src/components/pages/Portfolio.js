@@ -142,7 +142,7 @@ export default function Portfolio() {
                 </div>
                 <div className="project project-five" onClick={toggleProjectFive}>
                     <div className="project-name">
-                        <h3>Workout Tracker</h3>
+                        <h3>Fitness Tracker</h3>
                     </div>
                     <div className="pic-container">
                         <img src={workoutPic} alt=""></img>

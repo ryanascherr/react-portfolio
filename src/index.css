@@ -189,6 +189,10 @@ h1, h2, h3, h4 {
     font-size: 200%;
 }
 
+.resume p, .resume li {
+    font-size: 150%;
+}
+
 .contact-links {
     display: flex;
     flex-direction: column;
@@ -233,6 +237,43 @@ h1, h2, h3, h4 {
 
 .icon-container:hover {
     transform: scale(1.2);
+}
+
+.resume ul {
+    margin-bottom: 30px;
+}
+
+.resume-box {
+    border: 2px solid #16405C;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.resume-box h2 {
+    color: white;
+    background-color: #16405C;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+}
+
+.bob {
+    animation-name: bob;
+    animation-duration: .75s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .45s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+@keyframes bob {
+    from {
+        top: -2.5px;
+    }
+    to {
+        top: 2.5px;
+    }
 }
 
 @media only screen and (min-width: 992px) {

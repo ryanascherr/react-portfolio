@@ -87,6 +87,7 @@ h1, h2, h3, h4 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .project {
@@ -110,6 +111,10 @@ h1, h2, h3, h4 {
 .project:hover .overlay {
     opacity: 1;
   }
+
+.pic-container {
+    border: 1px solid #16405C;
+}
 
 .pic-container img {
     max-width: 100%;

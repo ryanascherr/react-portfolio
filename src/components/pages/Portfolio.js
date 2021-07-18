@@ -2,7 +2,9 @@ import React from 'react';
 import techPic from '../../img/tech-blog.png';
 import yodaPic from '../../img/yoda.png';
 import weatherPic from '../../img/weather.png';
-import horiseonPic from '../../img/horiseon.png';
+import calendarPic from '../../img/calendar.png';
+import workoutPic from '../../img/workout.png';
+import passwordPic from '../../img/password.png';
 import $ from "jquery";
 
 export default function Portfolio() {
@@ -12,6 +14,8 @@ export default function Portfolio() {
         $(".two").slideUp();
         $(".three").slideUp();
         $(".four").slideUp();
+        $(".five").slideUp();
+        $(".six").slideUp();
     }
 
     const toggleProjectTwo = () => {
@@ -19,6 +23,8 @@ export default function Portfolio() {
         $(".one").slideUp();
         $(".three").slideUp();
         $(".four").slideUp();
+        $(".five").slideUp();
+        $(".six").slideUp();
     }
 
     const toggleProjectThree = () => {
@@ -26,6 +32,8 @@ export default function Portfolio() {
         $(".one").slideUp();
         $(".two").slideUp();
         $(".four").slideUp();
+        $(".five").slideUp();
+        $(".six").slideUp();
     }
 
     const toggleProjectFour = () => {
@@ -33,6 +41,26 @@ export default function Portfolio() {
         $(".one").slideUp();
         $(".two").slideUp();
         $(".three").slideUp();
+        $(".five").slideUp();
+        $(".six").slideUp();
+    }
+
+    const toggleProjectFive = () => {
+        $(".five").slideToggle();
+        $(".one").slideUp();
+        $(".two").slideUp();
+        $(".three").slideUp();
+        $(".four").slideUp();
+        $(".six").slideUp();
+    }
+
+    const toggleProjectSix = () => {
+        $(".six").slideToggle();
+        $(".one").slideUp();
+        $(".two").slideUp();
+        $(".three").slideUp();
+        $(".four").slideUp();
+        $(".five").slideUp();
     }
 
     return (
@@ -96,19 +124,55 @@ export default function Portfolio() {
                 </div>
                 <div className="project project-four" onClick={toggleProjectFour}>
                     <div className="project-name">
-                        <h3>Horiseon</h3>
+                        <h3>Workday Scheduler</h3>
                     </div>
                     <div className="pic-container">
-                        <img src={horiseonPic} alt=""></img>
+                        <img src={calendarPic} alt=""></img>
                     </div>
                     <div className="image-label hidden four">
                         <h4>Description:</h4>
-                        <p className="bottom">This webpage is a mockup of a company website which fetaures responsive design and a clean UI.</p>
+                        <p className="bottom">This application allows users to plan out a workday by logging events into a daily calendar. Users can then save the text written in each time block, causing it to persist even if the page refreshes.</p>
                         <h4>Technologies Used:</h4>
-                        <p className="bottom">HTML, CSS</p>
+                        <p className="bottom">HTML, CSS, JS, JQuery, Bootstrap</p>
                         <div className="buttons">
-                            <button className="button"><a href="https://github.com/ryanascherr/horiseon" target="_blank">Repo</a></button>
-                            <button className="button"><a href="https://ryanascherr.github.io/horiseon/" target="_blank">Web Page</a></button>
+                            <button className="button"><a href="https://github.com/ryanascherr/work-day-scheduler" target="_blank">Repo</a></button>
+                            <button className="button"><a href="https://ryanascherr.github.io/work-day-scheduler/" target="_blank">Web Page</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div className="project project-five" onClick={toggleProjectFive}>
+                    <div className="project-name">
+                        <h3>Workout Tracker</h3>
+                    </div>
+                    <div className="pic-container">
+                        <img src={workoutPic} alt=""></img>
+                    </div>
+                    <div className="image-label hidden five">
+                        <h4>Description:</h4>
+                        <p className="bottom">This application allows users to plan out a workday by logging events into a daily calendar. Users can then save the text written in each time block, causing it to persist even if the page refreshes.</p>
+                        <h4>Technologies Used:</h4>
+                        <p className="bottom">HTML, CSS, JS, JQuery, Bootstrap</p>
+                        <div className="buttons">
+                            <button className="button"><a href="https://github.com/ryanascherr/work-day-scheduler" target="_blank">Repo</a></button>
+                            <button className="button"><a href="https://ryanascherr.github.io/work-day-scheduler/" target="_blank">Web Page</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div className="project project-siz" onClick={toggleProjectSix}>
+                    <div className="project-name">
+                        <h3>Password Generator</h3>
+                    </div>
+                    <div className="pic-container">
+                        <img src={passwordPic} alt=""></img>
+                    </div>
+                    <div className="image-label hidden six">
+                        <h4>Description:</h4>
+                        <p className="bottom">This application allows users to plan out a workday by logging events into a daily calendar. Users can then save the text written in each time block, causing it to persist even if the page refreshes.</p>
+                        <h4>Technologies Used:</h4>
+                        <p className="bottom">HTML, CSS, JS, JQuery, Bootstrap</p>
+                        <div className="buttons">
+                            <button className="button"><a href="https://github.com/ryanascherr/work-day-scheduler" target="_blank">Repo</a></button>
+                            <button className="button"><a href="https://ryanascherr.github.io/work-day-scheduler/" target="_blank">Web Page</a></button>
                         </div>
                     </div>
                 </div>

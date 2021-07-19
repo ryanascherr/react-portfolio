@@ -56,7 +56,7 @@ h1, h2, h3, h4 {
 }
 
 .resume {
-    width: 75%;
+    width: 80%;
 }
 
 /* .resume p, .resume li {
@@ -135,19 +135,6 @@ h1, h2, h3, h4 {
     color: white;
     border-radius: 10px 10px 0 0;
 }
-
-/* .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #16405C;
-} */
 
 .text {
     color: white;
@@ -246,8 +233,10 @@ h1, h2, h3, h4 {
 .resume-box {
     border: 2px solid #16405C;
     border-radius: 10px;
+    justify-content: center;
     padding: 10px;
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .resume-box h2 {
@@ -255,6 +244,17 @@ h1, h2, h3, h4 {
     background-color: #16405C;
     border-radius: 5px 5px 0 0;
     padding: 10px;
+}
+
+.resume-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.education h4 {
+    margin-bottom: 20px;
 }
 
 .bob {
@@ -265,6 +265,39 @@ h1, h2, h3, h4 {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     position: relative;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h3 {
+    text-align: left;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 15px;
+    font-size: 150%;
+    width: 50%;
+}
+
+.contact button {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid #16405C;
+    border-radius: 10px;
+    outline: none;
+}
+
+.contact button:hover {
+    color: white;
+    background-color: #16405C;
+    border: 2px solid white;
+}
+
+textarea {
+    width: 50%;
 }
 
 @keyframes bob {
@@ -279,6 +312,13 @@ h1, h2, h3, h4 {
 @media only screen and (min-width: 992px) {
     .project {
         max-width: 45%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .resume-box {
+        width: 45%;
+        margin: 15px;
     }
 }
 

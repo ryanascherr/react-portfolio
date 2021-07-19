@@ -272,6 +272,12 @@ h1, h2, h3, h4 {
     flex-direction: column;
 }
 
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .contact h3 {
     text-align: left;
 }
@@ -279,18 +285,19 @@ h1, h2, h3, h4 {
 .contact input, .contact textarea {
     margin-bottom: 15px;
     font-size: 150%;
-    width: 50%;
+    width: 100%;
 }
 
-.contact button {
+.contact .submit {
     width: 100px;
     padding: 10px;
     border: 2px solid #16405C;
     border-radius: 10px;
     outline: none;
+    background-color: white;
 }
 
-.contact button:hover {
+.submit:hover {
     color: white;
     background-color: #16405C;
     border: 2px solid white;
@@ -309,9 +316,19 @@ textarea {
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .contact input, .contact textarea {
+        width: 50%;
+    }
+}
+
 @media only screen and (min-width: 992px) {
     .project {
         max-width: 45%;
+    }
+
+    .contact input, .contact textarea {
+        width: 50%;
     }
 }
 

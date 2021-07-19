@@ -115,7 +115,7 @@ export default function Portfolio() {
                         <h4>Description:</h4>
                         <p className="bottom">This application allows a user to find weather information for any city across the world, as well as a 5-day forecast.</p>
                         <h4>Technologies Used:</h4>
-                        <p className="bottom">HTML, CSS, JS, JQuery, MaterializeCSS, Fun Translations API, Advice Slip JSON API</p>
+                        <p className="bottom">HTML, CSS, JS, JQuery, OpenWeatherMap API</p>
                         <div className="buttons">
                             <button className="button"><a href="https://github.com/ryanascherr/weather-dashboard" target="_blank">Repo</a></button>
                             <button className="button"><a href="https://ryanascherr.github.io/weather-dashboard/" target="_blank">Web Page</a></button>
@@ -149,16 +149,16 @@ export default function Portfolio() {
                     </div>
                     <div className="image-label hidden five">
                         <h4>Description:</h4>
-                        <p className="bottom">This application allows users to plan out a workday by logging events into a daily calendar. Users can then save the text written in each time block, causing it to persist even if the page refreshes.</p>
+                        <p className="bottom">This application allows users to add exercisses to a workout plan and to view the combined weight and total duration of the last 7 workouts.</p>
                         <h4>Technologies Used:</h4>
-                        <p className="bottom">HTML, CSS, JS, JQuery, Bootstrap</p>
+                        <p className="bottom">NoSQL, MongoDB, Mongoose.js</p>
                         <div className="buttons">
-                            <button className="button"><a href="https://github.com/ryanascherr/work-day-scheduler" target="_blank">Repo</a></button>
-                            <button className="button"><a href="https://ryanascherr.github.io/work-day-scheduler/" target="_blank">Web Page</a></button>
+                            <button className="button"><a href="https://github.com/ryanascherr/workout-tracker" target="_blank">Repo</a></button>
+                            <button className="button"><a href="https://metric-loon-80521.herokuapp.com/" target="_blank">Web Page</a></button>
                         </div>
                     </div>
                 </div>
-                <div className="project project-siz" onClick={toggleProjectSix}>
+                <div className="project project-six" onClick={toggleProjectSix}>
                     <div className="project-name">
                         <h3>Password Generator</h3>
                     </div>
@@ -167,12 +167,12 @@ export default function Portfolio() {
                     </div>
                     <div className="image-label hidden six">
                         <h4>Description:</h4>
-                        <p className="bottom">This application allows users to plan out a workday by logging events into a daily calendar. Users can then save the text written in each time block, causing it to persist even if the page refreshes.</p>
+                        <p className="bottom">This application allows users to create a random password using a set of five parameters. </p>
                         <h4>Technologies Used:</h4>
-                        <p className="bottom">HTML, CSS, JS, JQuery, Bootstrap</p>
+                        <p className="bottom">HTML, CSS, JS, JQuery</p>
                         <div className="buttons">
-                            <button className="button"><a href="https://github.com/ryanascherr/work-day-scheduler" target="_blank">Repo</a></button>
-                            <button className="button"><a href="https://ryanascherr.github.io/work-day-scheduler/" target="_blank">Web Page</a></button>
+                            <button className="button"><a href="https://github.com/ryanascherr/password-generator" target="_blank">Repo</a></button>
+                            <button className="button"><a href="https://ryanascherr.github.io/password-generator/" target="_blank">Web Page</a></button>
                         </div>
                     </div>
                 </div>

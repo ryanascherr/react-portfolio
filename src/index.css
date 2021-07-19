@@ -67,6 +67,13 @@ h1, h2, h3, h4 {
     width: 75%;
 }
 
+/* .test3 {
+    border: 2px solid #16405C;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+} */
+
 .about p {
     font-size: 200%;
 }
@@ -75,6 +82,8 @@ h1, h2, h3, h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: #16405C;
+    color: white; */
 }
 
 .headshot {
@@ -250,7 +259,7 @@ h1, h2, h3, h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
 .education h4 {
